@@ -1,6 +1,6 @@
 FROM oryxprod/node-4.5:20190301.2
 
-MAINTAINER Azure App Services Container Images <appsvc-images@microsoft.com>
+LABEL maintainer="Azure App Services Container Images <appsvc-images@microsoft.com>"
 
 COPY startup /opt/startup
 COPY hostingstart.html /home/site/wwwroot/hostingstart.html
